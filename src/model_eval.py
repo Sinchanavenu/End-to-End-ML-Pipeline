@@ -25,7 +25,7 @@ metrics_dict = {
 
     'acc': acc,
     'precision': pre,
-    'recall':recall,
+    'recall': recall,
     'f1_score': f1score
 }
 
