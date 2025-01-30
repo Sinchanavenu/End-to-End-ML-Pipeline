@@ -53,7 +53,7 @@ def main():
         os.makedirs(raw_data_path)
 
         save_data(train_data,os.path.join(raw_data_path, "train.csv"))
-        save_data(test_data,os.path.join(raw_data_path, "test.csv"))
+        save_data(test_data, os.path.join(raw_data_path, "test.csv"))
     except Exception as e:
         raise Exception(f"An error occured {e}")
 
